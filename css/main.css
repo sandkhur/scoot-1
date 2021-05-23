@@ -70,6 +70,8 @@ body {
  * ================ */
 .nav {
   margin-right: auto;
+  font-family: "Space Mono", monospace;
+  font-size: 1.5rem;
 }
 
 .nav-list {
@@ -83,6 +85,7 @@ body {
 }
 
 .nav__links {
+  text-decoration: none;
   color: #939CAA;
   transition: 250ms ease;
 }
@@ -100,8 +103,10 @@ body {
   border: 3px solid #FCB72B;
   background: #FCB72B;
   color: #FFFFFF;
+  font-family: "Space Mono", monospace;
   font-size: 1.5rem;
   line-height: 2.5rem;
+  text-decoration: none;
   transition: 250ms ease;
 }
 
@@ -115,13 +120,7 @@ body {
  * ============ */
 .header {
   padding: 25px 0;
-  font-family: "Space Mono", monospace;
-  font-size: 1.5rem;
   background: #FFFFFF;
-}
-
-.header a {
-  text-decoration: none;
 }
 
 .header .container {

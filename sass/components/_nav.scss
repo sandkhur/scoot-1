@@ -4,6 +4,8 @@
 
 .nav {
 	margin-right: auto;
+	font-family: $title-font;
+	font-size: 1.5rem;
 }
 
 .nav-list {
@@ -17,6 +19,7 @@
 }
 
 .nav__links {
+	text-decoration: none;
 	color: $header-nav-link;
 	transition: 250ms ease;
 }
