@@ -1,0 +1,17 @@
+/* ========== *
+ * -- Logo -- *
+ * ========== */
+
+.logo {
+	width: $logoWidth;
+	height: $logoHeight;
+	margin-right: 58px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.logo__img {
+	width: $logoWidth;
+	height: $logoHeight;
+}

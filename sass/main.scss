@@ -4,10 +4,12 @@
 @import './abstracts/mixins';
 
 // Base
-@import './base/base';
 @import './base/typography';
+@import './base/base';
 
 // Components
+@import './components/logo';
+@import './components/nav';
 @import './components/btn';
 
 // Layout
@@ -19,4 +21,3 @@
 
 // Pages
 @import './pages/home';
-

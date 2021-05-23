@@ -1,0 +1,52 @@
+// ===============
+// -- Variables --
+// ===============
+
+// == COLORS ==================
+
+// Main colors
+$primary:      #FCB72B;
+$dark-navy:    #495567;
+$dim-grey:     #939CAA;
+$light-grey:   #E5ECF4;
+$snow:         #F2F5F9;
+$light-yellow: #FFF4DF;
+
+// Section background colors
+$body:         #FFFFFF;
+$header:       $body;
+
+// Selection
+$selection-fg: #FFFFFF;
+$selection-bg: $primary;
+
+// Nav
+$nav-link-hov:    $primary;
+$header-nav-link: $dim-grey;
+
+// Button
+$button-bg:     $primary;
+$button-fg:     #FFFFFF;
+$button-bg-hov: transparent;
+$button-fg-hov: $primary;
+$button-border: $primary;
+
+// =============================
+
+
+// == Fonts ==============================
+
+// Font families
+$title-font: 'Space Mono', monospace;
+$text-font:  'Lexend Deca', sans-serif;
+
+// =======================================
+
+
+// == Other ============
+
+// Define logo size
+$logoWidth: 108px;
+$logoHeight: 29px;
+
+// =====================

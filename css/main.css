@@ -3,15 +3,128 @@
  * Space Mono: Bold(700)     *
  *---------------------------*/
 @font-face {
-  font-family: 'Lexend Deca';
-  src: url("../../fonts/LexendDeca-Regular.woff2") format("woff2"), url("../../fonts/LexendDeca-Regular.woff") format("woff");
+  font-family: "Lexend Deca";
+  src: url("../fonts/LexendDeca-Regular.woff2") format("woff2"), url("../fonts/LexendDeca-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
-  font-display: swap; }
-
+  font-display: swap;
+}
 @font-face {
-  font-family: 'Space Mono';
-  src: url("../../fonts/SpaceMono-Bold.woff2") format("woff2"), url("../../fonts/SpaceMono-Bold.woff") format("woff");
+  font-family: "Space Mono";
+  src: url("../fonts/SpaceMono-Bold.woff2") format("woff2"), url("../fonts/SpaceMono-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;
-  font-display: swap; }
+  font-display: swap;
+}
+/* ================== *
+ * -- Basic styles -- *
+ * ================== */
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+*::selection {
+  background: #FCB72B;
+  color: #FFFFFF;
+}
+
+html {
+  font-size: 10px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lexend Deca", serif;
+  background: #FFFFFF;
+}
+
+.container {
+  width: 1136px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/* ========== *
+ * -- Logo -- *
+ * ========== */
+.logo {
+  width: 108px;
+  height: 29px;
+  margin-right: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo__img {
+  width: 108px;
+  height: 29px;
+}
+
+/* ================ *
+ * -- Navigation -- *
+ * ================ */
+.nav {
+  margin-right: auto;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-list__items:not(:last-child) {
+  margin-right: 58px;
+}
+
+.nav__links {
+  color: #939CAA;
+  transition: 250ms ease;
+}
+
+.nav__links:hover {
+  color: #FCB72B;
+}
+
+/* ============ *
+ * -- Button -- *
+ * ============ */
+.btn {
+  display: inline-block;
+  padding: 14px 40px;
+  border: 3px solid #FCB72B;
+  background: #FCB72B;
+  color: #FFFFFF;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  transition: 250ms ease;
+}
+
+.btn:hover {
+  background-color: transparent;
+  color: #FCB72B;
+}
+
+/* ============ *
+ * -- Header -- *
+ * ============ */
+.header {
+  padding: 25px 0;
+  font-family: "Space Mono", monospace;
+  font-size: 1.5rem;
+  background: #FFFFFF;
+}
+
+.header a {
+  text-decoration: none;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+}

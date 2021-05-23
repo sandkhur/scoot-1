@@ -1,0 +1,32 @@
+/* ================== *
+ * -- Basic styles -- *
+ * ================== */
+
+*,
+*::after,
+*::before {
+	padding: 0;
+	margin: 0;
+	box-sizing: inherit;
+}
+
+*::selection {
+	background: $selection-bg;
+	color:      $selection-fg;
+}
+
+html {
+	font-size: 10px;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Lexend Deca", serif;
+	background: $body;
+}
+
+.container {
+	width: 1136px;
+	padding: 0 15px;
+	margin: 0 auto;
+}

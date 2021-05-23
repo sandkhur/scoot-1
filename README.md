@@ -2,8 +2,6 @@
   <img src="./assets/banner.png" alt="Scoot banner" />
 </p>
 
-<br />
-
 About
 -----
 Just a website for practice our collaborative skills using:
@@ -12,19 +10,15 @@ Just a website for practice our collaborative skills using:
   * CSS
   * Sass
 
-<br />
+Progress
+--------
 
-TODO
-----
-
-- [ ] Header
+- [x] Header
 - [ ] Hero
 - [ ] Call to action
 - [ ] Features
 - [ ] Footer
 - [ ] Review and clean code
-
-<br />
 
 License
 -------
